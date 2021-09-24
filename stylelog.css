@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+      background-image: url(login.jpg);
+      background-size: cover;
+      height: auto;
+      
+    }
+    background-image{
+        opacity: 80%;
+    }
+#loghead{
+      font-family: cursive;
+    }
+    
+.form-control{
+      text-align: center;
+      height:50px;
+      margin-bottom: 2%;
+    }
+    
+#loghead{
+      text-align: center;
+    }
+    
+form{
+      width: 30vw; 
+      margin-top: 7vw;
+      padding: 4%; 
+      text-align: left;
+      border: 1px solid black; 
+      border-radius: 7px; 
+      background-color:rgba(0,0,0,250);
+      color: white;
+      opacity: 90%;
+      font-family: 'Poppins', sans-serif;  
+    }
+input{
+      transition: 0.5s;
+      transition-property: border-left,border-right,box-shadow;
+    }
+input:hover,input:focus,input:active{
+      box-shadow: 0 0 100px rgba(248, 158, 203, 0.8);
+    }
+
+#btn1{
+      width:150px;
+      height:3rem;
+      align-items: center;
+      background-color:rgb(240, 13, 240);
+      color:black;
+      border:none;
+      outline:none;
+      font-size: 20px;
+      font-weight: bolder;
+      transition: 0.5s;
+      transition-property: border-left,border-right,box-shadow;
+    }
+#btn1:hover{
+      box-shadow: 0 0 100px rgba(248, 158, 203, 0.8);
+    }
+  
+#showBtn{
+      position: absolute;
+      margin-top:-2px;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: bold;
+      color: black;
+      z-index: 2;
+    }
+
+#error2{
+      z-index: 5;
+      position: relative;
+      margin-top: 10px;
+      padding-top: 15%;
+    }
+nav{
+      height: fit-content; 
+      background-image: linear-gradient(to right, #333333,#dd1818);
+    }
+
+#tag{
+      color: white;
+      text-decoration: none;
+      font-size: 2em;
+      font-family: 'Pacifico', cursive;
+      margin-left: 8%;
+    }
+    
+
+
+/* -----------------media queries------------------- */
+
+    @media screen and (min-width: 701px) {
+      form {
+        width: 30vw;
+      }
+    }
+
+    /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+    @media screen and (max-width: 750px) {
+      form {
+        width: 50vw;
+      }
+      body{
+          background-size:cover;
+          height:100vh;
+      }
+    }
+ 
+    @media screen and (min-width: 601px) {
+        .form-label {
+          font-size: 20px;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 600px) {
+        .form-label {
+          font-size: 15px;
+        }
+      }
+      @media screen and (min-width: 601px) {
+        #emailHelp,.form-check-label{
+          font-size: 15px;
+        }
+      }
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 600px) {
+        #emailHelp,.form-check-label {
+          font-size: 8px;
+        }
+      }
+      @media screen and (min-width: 601px) {
+        #exampleCheck1{
+          font-size: 15px;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 600px) {
+        #exampleCheck1 {
+          font-size: 8px;
+        }
+      }
+      @media screen and (min-width: 601px) {
+        #btn1{
+          font-size: 15px;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 600px) {
+        #btn1 {
+          font-size: 15px;
+        }
+      }
+     
+      @media screen and (min-width: 432px) {
+        #showBtn{
+          font-size: 10px;
+          padding-top: 6%;
+          /* padding-left: 80%; */
+          margin-left: 80%;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 431px) {
+        #showBtn {
+          font-size: 8px;
+          padding-top: 5%;
+          /* padding-left: 80%; */
+          margin-left: 82%;
+        }
+      }
+
+     
