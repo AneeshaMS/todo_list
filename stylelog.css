@@ -97,18 +97,22 @@ nav{
 
 
 /* -----------------media queries------------------- */
-
+@media screen and (min-width:480px) {
+  form{
+    width:100vh;
+  }
+}
     @media screen and (min-width: 701px) {
       form {
-        width: 30vw;
+        width: 30%;
       }
-    }
+    } 
 
     /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
     @media screen and (max-width: 750px) {
-      form {
+     form {
         width: 50vw;
-      }
+      } 
       body{
           background-size:cover;
           height:100vh;
