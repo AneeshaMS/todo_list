@@ -197,5 +197,9 @@ nav{
           margin-left: 82%;
         }
       }
-
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        #showbtn{
+          padding-top:20%;
+        }
+        }
      
