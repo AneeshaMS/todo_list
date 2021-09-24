@@ -65,7 +65,7 @@ input:hover,input:focus,input:active{
       box-shadow: 0 0 100px rgba(248, 158, 203, 0.8);
     }
   
-#showBtn{
+/* #showBtn{
       position: absolute;
       margin-top:-10px;
       cursor: pointer;
@@ -73,7 +73,7 @@ input:hover,input:focus,input:active{
       font-weight: bold;
       color: black;
       z-index: 2;
-    }
+    } */
 
 #error2{
       z-index: 5;
