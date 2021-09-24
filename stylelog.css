@@ -67,7 +67,7 @@ input:hover,input:focus,input:active{
   
 #showBtn{
       position: absolute;
-      margin-top:-2px;
+      margin-top:-10px;
       cursor: pointer;
       font-size: 15px;
       font-weight: bold;
@@ -101,10 +101,22 @@ nav{
   form{
     width:100vh;
   }
+  #showBtn{
+    font-size: 10px;
+    padding-top: 6%;
+    /* padding-left: 80%; */
+    margin-left: 80%;
+  }
 }
     @media screen and (min-width: 701px) {
       form {
-        width: 30%;
+        width: 30vw;
+      }
+      #showBtn{
+        font-size: 10px;
+        padding-top: 6%;
+        /* padding-left: 80%; */
+        margin-left: 80%;
       }
     } 
 
@@ -170,7 +182,7 @@ nav{
       @media screen and (min-width: 432px) {
         #showBtn{
           font-size: 10px;
-          padding-top: 6%;
+          padding-top: 10%;
           /* padding-left: 80%; */
           margin-left: 80%;
         }
