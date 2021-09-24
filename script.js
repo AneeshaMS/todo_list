@@ -3,20 +3,7 @@ $(document).ready(function(){
     let error1 = document.getElementById("error1");
     let error2 = document.getElementById("error2");
     let pwd = document.getElementById("pwd");
-    let showBtn = document.getElementById("showBtn")
-
-    // showBtn.style.display = "block";
-    // showBtn.onclick = function(){
-    //   if(pwd.type == "password"){
-    //     pwd.type = "text";
-    //     showBtn.textContent = "HIDE";
-    //     // showBtn.style.color = "#23ad5c";
-    //   }else{
-    //     pwd.type = "password";
-    //     showBtn.textContent = "SHOW";
-    //     // showBtn.style.color = "#000";
-    //   }
-    // }
+    
 
     function callback() {
         $("#form").attr('action','todolist.html')
